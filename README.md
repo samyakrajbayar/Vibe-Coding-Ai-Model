@@ -98,12 +98,12 @@ Use the sidebar buttons Save and Load to persist trained models to .pkl files.
 
 ## Project Structure
 
-vibecoder/
-│
-├── vibecoder_dashboard_app.py   # Main Streamlit app
-├── requirements.txt             # Dependencies
-├── code_dataset/                # (Created dynamically for repo pulls)
-└── vibecoder.pkl                # (Optional saved model file)
+vibecoder
+
+- vibecoder_dashboard_app.py   # Main Streamlit app
+- requirements.txt             # Dependencies
+- code_dataset/                # (Created dynamically for repo pulls)
+- vibecoder.pkl                # (Optional saved model file)
 
 
 ## Quality labels (excellent, good, average, poor) are heuristic. You may replace them with real data for serious use.
